@@ -1,0 +1,71 @@
+/* Intro.css */
+
+.intro {
+    background-color: #ffecd1;
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .intro-text {
+    max-width: 50%;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5em;
+    color: #001524;
+    margin: 0 0 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-select,
+  .search-form input,
+  .search-form button {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  
+  .search-form button {
+    background-color: #15616d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #ff7d00;
+  }
+  
+  .featured-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .featured-item img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .item-details h2 {
+    font-size: 1.5em;
+    color: #001524;
+  }
+  
+  .item-details p {
+    font-size: 1.2em;
+    color: #15616d;
+  }
+  
